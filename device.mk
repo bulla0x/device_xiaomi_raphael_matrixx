@@ -195,12 +195,9 @@ PRODUCT_PACKAGES += \
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
-<<<<<<< HEAD
-=======
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
 
->>>>>>> 9c3d367 (raphael: Bring back Leica camera)
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
@@ -368,6 +365,10 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_VENDOR_PROPERTIES += \
     $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=E)
 endif
+
+# Livedisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.raphael
 
 # Media
 PRODUCT_PACKAGES += \
