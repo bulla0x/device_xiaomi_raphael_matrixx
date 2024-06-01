@@ -10,8 +10,11 @@ $(call inherit-product, vendor/xiaomi/raphael/raphael-vendor.mk)
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-# Project ID Quota
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+# Call the BCR setup
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
+# API level, the device has been commercially launched on
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Updatable APEXs are a necessity to boot in U.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
