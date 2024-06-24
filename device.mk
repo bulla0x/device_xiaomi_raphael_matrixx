@@ -670,7 +670,9 @@ OVERRIDE_ENABLE_UFFD_GC := false
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
+    android.hardware.usb@1.3-service.dual_role_usb \
+    android.hardware.usb.gadget-service.qti \
+    usb_compositions.conf
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
