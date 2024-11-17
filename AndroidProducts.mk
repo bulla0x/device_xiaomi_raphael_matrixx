@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_raphael.mk
+    $(LOCAL_DIR)/pixelage_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_raphael-user \
-    yaap_raphael-userdebug \
-    yaap_raphael-eng
+    pixelage_raphael-ap3a-user \
+    pixelage_raphael-ap3a-userdebug \
+    pixelage_raphael-ap3a-eng
