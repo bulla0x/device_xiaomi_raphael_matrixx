@@ -168,7 +168,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
 # Blur
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+PRODUCT_SYSTEM_EXT_PROPERTIES  += \
     ro.sf.blurs_are_expensive=1 \
     ro.surface_flinger.supports_background_blur=1
 
@@ -518,7 +518,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext-privapp-permissions-qti.xml
 
 # Quick Tap
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_SYSTEM_EXT_PROPERTIES  += \
     persist.columbus.model=tap7cls_coral.tflite
 
 # RCS
