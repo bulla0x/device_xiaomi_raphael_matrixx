@@ -12,6 +12,7 @@ soong_namespace {
         "hardware/xiaomi",
     	"hardware/lineage/interfaces/light",
     	"hardware/qcom-caf/common/libqti-perfd-client",
+	"vendor/qcom/opensource/usb/etc",
     ],
 }
 

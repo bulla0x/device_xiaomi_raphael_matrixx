@@ -57,7 +57,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/xiaomi \
     hardware/lineage/interfaces/light \
-    hardware/qcom-caf/common/libqti-perfd-client
+    hardware/qcom-caf/common/libqti-perfd-client \
+    vendor/qcom/opensource/usb/etc
 
 # Variant Properties
 PRODUCT_COPY_FILES += \
