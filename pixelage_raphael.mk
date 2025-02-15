@@ -18,6 +18,9 @@ $(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 TARGET_DISABLE_EPPE := true
 
 # Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Boot animation
 scr_resolution := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
