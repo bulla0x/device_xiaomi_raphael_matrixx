@@ -22,6 +22,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 #TARGET_BUILD_GAPPS := true
 
 # Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Boot animation
 scr_resolution := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
