@@ -64,3 +64,6 @@ ro.zram.periodic_wb_delay_hours=24
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=false
+
+# Model properties
+import /system/system.${ro.boot.hwc}.prop
