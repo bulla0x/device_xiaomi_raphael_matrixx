@@ -50,10 +50,3 @@ if [ ! -f /vendor/firmware_mnt/verinfo/ver_info.txt -o "$prev_version_info" != "
 fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
-
-# Set RAM property based on system RAM
-# Get amount of RAM in the system
-MemTotalStr=`cat /proc/meminfo | grep MemTotal`
-MemTotal=${MemTotalStr:16:8}
-let RamSizeGB="( $MemTotal / 1048576 ) + 1"
-setprop ro.vendor.hw.ram "$RamSizeGB"GB

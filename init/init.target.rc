@@ -306,28 +306,3 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     user system
     group system
     disabled
-
-# Dalvik configuration
-on property:ro.vendor.hw.ram=6GB
-    setprop dalvik.vm.heapstartsize 16m
-    setprop dalvik.vm.heapgrowthlimit 384m
-    setprop dalvik.vm.heapsize 512m
-    setprop dalvik.vm.heapminfree 512k
-    setprop dalvik.vm.heapmaxfree 16m
-    setprop dalvik.vm.heaptargetutilization 0.75
-
-on property:ro.vendor.hw.ram=8GB
-    setprop dalvik.vm.heapstartsize 24m
-    setprop dalvik.vm.heapgrowthlimit 512m
-    setprop dalvik.vm.heapsize 512m
-    setprop dalvik.vm.heapminfree 1m
-    setprop dalvik.vm.heapmaxfree 12m
-    setprop dalvik.vm.heaptargetutilization 0.75
-
-on property:ro.vendor.hw.ram=12GB
-    setprop dalvik.vm.heapstartsize 24m
-    setprop dalvik.vm.heapgrowthlimit 512m
-    setprop dalvik.vm.heapsize 512m
-    setprop dalvik.vm.heapminfree 1m
-    setprop dalvik.vm.heapmaxfree 12m
-    setprop dalvik.vm.heaptargetutilization 0.75
