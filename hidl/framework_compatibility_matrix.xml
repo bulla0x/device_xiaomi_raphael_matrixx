@@ -201,6 +201,7 @@
 	</hal>
 <hal format="aidl" optional="true">
     <name>android.hardware.health</name>
+	<version>3</version>
     <interface>
         <name>IHealth</name>
         <instance>default</instance>
@@ -453,6 +454,14 @@
 			<name>IUim</name>
 			<instance>Uim0</instance>
 			<instance>Uim1</instance>
+		</interface>
+	</hal>
+	<hal>
+		<name>android.hardware.tetheroffload.config</name>
+		<version>1.1</version>
+		<interface>
+			<name>IOffloadConfig</name>
+			<instance>default</instance>
 		</interface>
 	</hal>
 	<hal format="hidl" optional="true">
