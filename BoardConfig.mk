@@ -57,6 +57,7 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.raphael
 :
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
 
 # Display
 TARGET_DISABLED_UBWC := true
