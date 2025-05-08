@@ -29,6 +29,9 @@ TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 MATRIXX_BUILD_TYPE := Official
 
+# Bypass charging node /sys/class/power_supply/battery/input_suspend
+BYPASS_CHARGE_SUPPORTED := true
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
