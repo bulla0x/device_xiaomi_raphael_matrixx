@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_raphael.mk
+    $(LOCAL_DIR)/lineage_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_raphael-bp1a-user \
+    lineage_raphael-bp1a-userdebug \
+    lineage_raphael-bp1a-eng
