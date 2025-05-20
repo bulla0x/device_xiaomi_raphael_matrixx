@@ -17,6 +17,12 @@ $(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 
 TARGET_DISABLE_EPPE := true
 
+# Pixelage
+PIXELAGE_BUILDTYPE := OFFICIAL
+PIXELAGE_MAINTAINER := Jyotishman_Baruah
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
