@@ -14,10 +14,6 @@
       "repository":"vendor_xiaomi_raphael",
       "target_path":"vendor/xiaomi/raphael",
       "branch":"fifteen"
-   },
-   {
-      "repository": "packages_apps_DisplayFeatures",
-      "target_path": "packages/apps/DisplayFeatures"
    }
    {
     "repository": "vendor_xiaomi_miuicamera",
