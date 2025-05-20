@@ -471,7 +471,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
     libchrome.vendor \
-    NfcNci \
     SecureElement \
     Tag
 
@@ -721,9 +720,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libnl \
     libpng.vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     debug.sf.enable_hwc_vds=0 \
