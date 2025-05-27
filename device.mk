@@ -375,13 +375,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# Lights
 $(call soong_config_set,lineage_health,charging_control_charging_disabled,1)
 $(call soong_config_set,lineage_health,charging_control_charging_enabled,0)
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/input_suspend)
 $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
-# Lights
+# Livedisplay
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
