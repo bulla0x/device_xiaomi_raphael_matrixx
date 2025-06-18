@@ -10,6 +10,8 @@ soong_namespace {
         "hardware/google/interfaces",
         "hardware/google/pixel",
         "hardware/xiaomi",
+    	"hardware/lineage/interfaces/light",
+    	"hardware/qcom-caf/common/libqti-perfd-client",
     ],
 }
 

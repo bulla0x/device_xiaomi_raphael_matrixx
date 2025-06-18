@@ -55,7 +55,9 @@ PRODUCT_SOONG_NAMESPACES += \
     bootable/deprecated-ota \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/lineage/interfaces/light \
+    hardware/qcom-caf/common/libqti-perfd-client
 
 # Variant Properties
 PRODUCT_COPY_FILES += \
