@@ -386,7 +386,7 @@ $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
 # Livedisplay
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.lineage
+    android.hardware.light-service.xiaomi
 
 # Logging
 SPAMMY_LOG_TAGS := \
