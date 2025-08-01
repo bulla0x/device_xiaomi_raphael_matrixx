@@ -21,6 +21,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Gapps
 #TARGET_BUILD_GAPPS := true
 
+# Disable EPPE for devices that don't support it
+TARGET_DISABLE_EPPE := true
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
