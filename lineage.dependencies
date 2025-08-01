@@ -15,8 +15,4 @@
     "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   },
-  {
-    "repository": "packages_apps_DisplayFeatures",
-    "target_path": "packages/apps/DisplayFeatures"
-  }
 ]
