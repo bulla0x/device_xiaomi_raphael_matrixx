@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common raphael stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Disable EPPE for devices that don't support it
+TARGET_DISABLE_EPPE := true
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
