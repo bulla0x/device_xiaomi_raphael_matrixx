@@ -710,3 +710,6 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Enable zygote critical window.
 PRODUCT_PROPERTY_OVERRIDES += \
     zygote.critical_window.minute=10
+
+# Signing Keys
+    -include vendor/lineage-priv/keys/keys.mk
