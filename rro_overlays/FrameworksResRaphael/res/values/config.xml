@@ -627,7 +627,7 @@
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
     <string name="config_dozeTapSensorType" translatable="false">org.lineageos.sensor.single_tap</string>
 
-=    <!-- Auto-brightness sensor type string -->
+    <!-- Auto-brightness sensor type string -->
     <string name="config_displayLightSensorType">"android.sensor.light"</string>
 
     <!-- Whether device supports increased touch sensitvity -->
